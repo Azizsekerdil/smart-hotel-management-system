@@ -61,7 +61,7 @@ dependencies = [
 
     # --- Yapay zeka yardimcilari ---
     "numpy>=1.26,<3.0",
-    "tiktoken>=0.8; python_version < '3.13'",
+    "tiktoken>=0.13.0; python_version < '3.13'",
 ]
 
 [project.optional-dependencies]
