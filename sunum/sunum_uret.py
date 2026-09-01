@@ -161,7 +161,7 @@ def olcumler(hizli=False):
             _OLCUM_ONBELLEK[anahtar] = {}
     return _OLCUM_ONBELLEK[anahtar]
 YAYIN_AYI = {"tr": "Ağustos 2026", "en": "August 2026"}
-DEPO = "github.com/Azizsekerdil/akilli-konaklama-yonetim-sistemi"
+DEPO = "github.com/Azizsekerdil/smart-hotel-management-system"
 
 
 # ══════════════════════════════════════════════════════════════════════════
@@ -333,13 +333,13 @@ SLAYTLAR = [
         "baslik": ("AKILLI KONAKLAMA YÖNETİM SİSTEMİ",
                    "SMART HOSPITALITY MANAGEMENT SYSTEM"),
         "alt": ("Otel · butik otel · pansiyon · apart otel · tatil köyü için "
-                "yapay zekâ destekli Windows masaüstü PMS",
-                "AI-assisted Windows desktop PMS for hotels, boutique hotels, "
-                "guest houses, aparthotels and resorts"),
+                "yapay zekâ destekli Windows ve macOS masaüstü PMS",
+                "AI-assisted Windows & macOS desktop PMS for hotels, boutique "
+                "hotels, guest houses, aparthotels and resorts"),
         "slogan": ("Doğru Sat.  Doğru Ölç.  Veriyi Koru.",
                    "Sell Right.  Measure Right.  Protect the Data."),
         "puller": [
-            ("Windows masaüstü (.exe)", "Windows desktop (.exe)"),
+            ("Windows 10/11 + macOS", "Windows 10/11 & macOS"),
             ("%100 yerel yapay zekâ", "100% local AI option"),
             ("Şifreli kimlik verisi", "Encrypted identity data"),
             ("Türkçe / İngilizce", "Turkish / English"),
@@ -1036,11 +1036,13 @@ SLAYTLAR = [
               "The SQLite backup uses VACUUM INTO; copying the file in WAL mode "
               "produces an inconsistent backup. The current database is kept aside "
               "before any restore.")),
-            (("📦", "Windows Paketi", "Windows Package"),
-             ("Yapı betiği PyInstaller ile .exe üretir; ilk açılışta kurulum "
-              "sihirbazı veritabanını hazırlar ve yönetici parolasını bir kez gösterir.",
-              "The build script produces an .exe with PyInstaller; on first launch a "
-              "wizard prepares the database and shows the admin password once.")),
+            (("📦", "Platformlar ve İndirme", "Platforms and Download"),
+             ("Windows 10/11 (x64) + macOS (Apple Silicon) — İndirme: __DEPO__/"
+              "releases (v__SURUM__). macOS paketi notarize edilmedi; ilk açılış: "
+              "sağ tık → Aç.",
+              "Windows 10/11 (x64) & macOS (Apple Silicon) — Download: GitHub "
+              "Releases (v__SURUM__). The macOS package is not notarized; first "
+              "launch: right-click → Open.")),
             (("🧰", "Bakım Komutları", "Maintenance Commands"),
              ("bootstrap · seed-demo · backup · restore · check-ai · doctor. "
               "check-ai sağlayıcı bağlantısını, doctor kurulumun sağlığını sınar.",
